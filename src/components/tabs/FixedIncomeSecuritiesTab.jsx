@@ -168,33 +168,33 @@ const FixedIncomeSecuritiesTab = () => {
                 <table className="w-full border-collapse text-xs border border-gray-300">
                     <thead>
                         <tr>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100 sticky left-0 z-10"></th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Tenor</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Days to date</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Nominal</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Accrued Interest</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Discount Accretion/(Premium Amortisation)</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Interest Cashflow</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-green-100">Principal Cashflow</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Product</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Deal Type</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Deal No</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Deal Date</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Trading Book</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Dealer</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Counterparty</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Invoice Issuer</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Start Date</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Principal Amount</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Deal Fees</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">End Date</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Term (No of)</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Interest Rate (p.a)</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Currency</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Security Name</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-red-100">Amount Paid/Received</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-red-100">Bank</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300 bg-red-100">Source Of Funds</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900 sticky left-0 z-10"></th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Tenor</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Days to date</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Nominal</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Accrued Interest</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Discount Accretion/(Premium Amortisation)</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Interest Cashflow</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Principal Cashflow</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Product</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Deal Type</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Deal No</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Deal Date</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Trading Book</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Dealer</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Counterparty</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Invoice Issuer</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Start Date</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Principal Amount</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Deal Fees</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">End Date</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Term (No of)</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Interest Rate (p.a)</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Currency</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Security Name</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Amount Paid/Received</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Bank</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Source Of Funds</th>
                         </tr>
                     </thead>
                     <tbody>

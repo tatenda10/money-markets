@@ -155,7 +155,7 @@ const SODRuns = () => {
                             className="flex items-center gap-2 px-3 py-1.5 bg-black text-white hover:bg-gray-800 transition-colors"
                         >
                             <Play size={12} />
-                            Execute Run
+                            Run SOD Manually
                         </button>
                     </div>
 
@@ -181,14 +181,14 @@ const SODRuns = () => {
                 {/* List */}
                 <div className="flex-1 overflow-y-auto">
                     <table className="w-full text-left border-collapse">
-                        <thead className="bg-gray-50 sticky top-0 z-10">
+                        <thead className="bg-slate-900 sticky top-0 z-10">
                             <tr>
-                                <th className="px-4 py-3 text-[10px] font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 first:pl-6">Status</th>
-                                <th className="px-4 py-3 text-[10px] font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200">Run ID</th>
-                                <th className="px-4 py-3 text-[10px] font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200">Date & Time</th>
-                                <th className="px-4 py-3 text-[10px] font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200">Duration</th>
-                                <th className="px-4 py-3 text-[10px] font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200">User</th>
-                                <th className="px-4 py-3 border-b border-gray-200 last:pr-6"></th>
+                                <th className="px-4 py-3 text-[10px] font-semibold text-white uppercase tracking-wider border-b border-slate-800 first:pl-6">Status</th>
+                                <th className="px-4 py-3 text-[10px] font-semibold text-white uppercase tracking-wider border-b border-slate-800">Run ID</th>
+                                <th className="px-4 py-3 text-[10px] font-semibold text-white uppercase tracking-wider border-b border-slate-800">Date & Time</th>
+                                <th className="px-4 py-3 text-[10px] font-semibold text-white uppercase tracking-wider border-b border-slate-800">Duration</th>
+                                <th className="px-4 py-3 text-[10px] font-semibold text-white uppercase tracking-wider border-b border-slate-800">User</th>
+                                <th className="px-4 py-3 border-b border-slate-800 last:pr-6"></th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-100">
@@ -297,19 +297,19 @@ const SODRuns = () => {
                                         { id: 'Amortisation Schedule', label: 'Amortisation Schedule', type: 'selected' },
                                         { id: 'Fx PnL', label: 'Fx PnL', type: 'orange' },
                                         { id: 'Fx Deals', label: 'Fx Deals', type: 'orange' },
+                                        { id: 'Sheet2', label: 'Sheet2', type: 'orange' },
                                         { id: 'Fx Interdesk Balance', label: 'Fx Interdesk Balance', type: 'orange' },
                                         { id: 'Balances', label: 'Balances', type: 'grey' },
                                         { id: 'Reval Rates', label: 'Reval Rates', type: 'grey' },
                                         { id: 'trakin', label: 'trakin', type: 'grey' },
+                                        { id: 'Receivables', label: 'Receivables', type: 'grey' },
                                     ].map((tab) => (
                                         <button
                                             key={tab.id}
                                             onClick={() => setActiveTab(tab.id)}
                                             className={`relative px-4 py-2 text-sm font-medium transition-colors border-r border-gray-300 whitespace-nowrap ${
                                                 activeTab === tab.id
-                                                    ? 'bg-red-50 text-green-700 border-b-2 border-b-green-600'
-                                                    : tab.type === 'orange'
-                                                    ? 'bg-orange-500 text-white hover:bg-orange-600'
+                                                    ? 'bg-gray-200 text-gray-900 border-b-2 border-b-gray-400'
                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                             }`}
                                         >
@@ -394,6 +394,13 @@ const SODRuns = () => {
                                                 </tbody>
                                             </table>
                                         </div>
+                                    </div>
+                                )}
+
+                                {activeTab === 'Sheet2' && (
+                                    <div className="space-y-4">
+                                        <h3 className="text-lg font-semibold text-gray-900">Sheet2</h3>
+                                        <p className="text-sm text-gray-600">Sheet2 data content will be displayed here.</p>
                                     </div>
                                 )}
 

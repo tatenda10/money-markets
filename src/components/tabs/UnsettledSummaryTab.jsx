@@ -12,12 +12,12 @@ const UnsettledSummaryTab = () => {
                     <table className="w-full border-collapse text-sm border border-gray-900">
                         <thead>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Currency</th>
-                                <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Buy Position</th>
-                                <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Sell Position</th>
-                                <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Net Position</th>
-                                <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Rate</th>
-                                <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">USD Equivalent</th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Currency</th>
+                                <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Buy Position</th>
+                                <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Sell Position</th>
+                                <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Net Position</th>
+                                <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Rate</th>
+                                <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">USD Equivalent</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -62,19 +62,19 @@ const UnsettledSummaryTab = () => {
                     <table className="w-full border-collapse text-sm border border-purple-600">
                         <thead>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-purple-600 sticky left-0 z-10">Currency</th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10">Currency</th>
                                 {['ET', 'Marongwe', 'Muchenge', 'Tatenda', 'Tinashe', 'Upenyu', 'LC Outstanding'].map((entity) => (
                                     <React.Fragment key={entity}>
-                                        <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-purple-600" colSpan="2">{entity}</th>
+                                        <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800" colSpan="2">{entity}</th>
                                     </React.Fragment>
                                 ))}
                             </tr>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-purple-600 sticky left-0 z-10"></th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10"></th>
                                 {['ET', 'Marongwe', 'Muchenge', 'Tatenda', 'Tinashe', 'Upenyu', 'LC Outstanding'].map((entity) => (
                                     <React.Fragment key={entity}>
-                                        <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-purple-600">Receivables</th>
-                                        <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-purple-600">Payables</th>
+                                        <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Receivables</th>
+                                        <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Payables</th>
                                     </React.Fragment>
                                 ))}
                             </tr>

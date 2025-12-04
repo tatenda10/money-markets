@@ -2,20 +2,27 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Login from './pages/Login';
-import ProtectedRoute from './components/ProtectedRoute';
+import Dashboard from './pages/Dashboard';
+import PnLSummary from './pages/PnLSummary';
+import IncomeSummary from './pages/IncomeSummary';
+import CashRecon from './pages/CashRecon';
+import Transactions from './pages/Transactions';
 import SODRuns from './pages/SODRuns';
-import Settings from './pages/Settings';
-import Configurations from './pages/Configurations';
 
-// Component to redirect authenticated users away from login
+const ProtectedRoute = ({ children }) => {
+    const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+    if (!isAuthenticated) {
+        return <Navigate to="/login" replace />;
+    }
+    return children;
+};
+
 const PublicRoute = ({ children }) => {
-  const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
-  
-  if (isAuthenticated) {
-    return <Navigate to="/sod-runs" replace />;
-  }
-  
-  return children;
+    const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+    if (isAuthenticated) {
+        return <Navigate to="/" replace />;
+    }
+    return children;
 };
 
 function App() {
@@ -32,12 +39,13 @@ function App() {
             <Layout />
           </ProtectedRoute>
         }>
-          <Route index element={<Navigate to="/sod-runs" replace />} />
+          <Route index element={<Dashboard />} />
+          <Route path="pnl-summary" element={<PnLSummary />} />
+          <Route path="income-summary" element={<IncomeSummary />} />
+          <Route path="cash-recon" element={<CashRecon />} />
+          <Route path="transactions" element={<Transactions />} />
           <Route path="sod-runs" element={<SODRuns />} />
-          <Route path="runs" element={<Navigate to="/sod-runs" replace />} />
-          <Route path="settings" element={<Settings />} />
-          <Route path="configurations" element={<Configurations />} />
-          <Route path="*" element={<Navigate to="/sod-runs" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
     </BrowserRouter>

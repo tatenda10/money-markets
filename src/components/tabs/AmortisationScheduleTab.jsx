@@ -36,16 +36,16 @@ const AmortisationScheduleTab = () => {
                     <div className="overflow-x-auto">
                         <table className="w-full border-collapse text-sm">
                             <thead>
-                                <tr className="bg-green-100">
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Deal No</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Loan No</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Loan Name</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Start Date</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Frequency</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Amount</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Term</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Interest rate (p.a.)</th>
-                                    <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Payment</th>
+                                <tr className="bg-slate-900">
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Deal No</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Loan No</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Loan Name</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Start Date</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Frequency</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Amount</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Term</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Interest rate (p.a.)</th>
+                                    <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Payment</th>
                                 </tr>
                             </thead>
                             <tbody>

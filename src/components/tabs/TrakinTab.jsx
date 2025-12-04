@@ -54,14 +54,14 @@ const TrakinTab = () => {
             <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm border border-gray-300">
                     <thead>
-                        <tr className="bg-yellow-200">
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">DATE</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">CUSTOMER</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">RISK RATE</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">TRANSACTING RATE</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">USD AMOUNT</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">CABS</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">ZAR CASH</th>
+                        <tr className="bg-slate-900">
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">DATE</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">CUSTOMER</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">RISK RATE</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">TRANSACTING RATE</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">USD AMOUNT</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">CABS</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">ZAR CASH</th>
                         </tr>
                     </thead>
                     <tbody>

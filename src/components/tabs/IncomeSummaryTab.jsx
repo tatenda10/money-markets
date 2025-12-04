@@ -17,11 +17,11 @@ const IncomeSummaryTab = () => {
                 <table className="w-full border-collapse text-sm border border-gray-900">
                     <thead>
                         <tr>
-                            <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900 w-64"></th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">YtD- previous month</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">Daily</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">MtD</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900">YtD</th>
+                            <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 w-64"></th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">YtD- previous month</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Daily</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">MtD</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">YtD</th>
                         </tr>
                     </thead>
                     <tbody>

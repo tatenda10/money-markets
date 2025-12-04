@@ -64,15 +64,15 @@ const SuspenseEntriesTab = () => {
             <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm border border-gray-300">
                     <thead>
-                        <tr className="bg-white">
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Date</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Dealer</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Customer Name</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Source Of funds</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Bank</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Currency</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Amount</th>
-                            <th className="text-left text-xs font-medium text-gray-900 p-2 border border-gray-300">Desk Transferred to</th>
+                        <tr className="bg-slate-900">
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Date</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Dealer</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Customer Name</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Source Of funds</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Bank</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Currency</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Amount</th>
+                            <th className="text-left text-xs font-medium text-white p-2 border border-slate-800 bg-slate-900">Desk Transferred to</th>
                         </tr>
                     </thead>
                     <tbody>

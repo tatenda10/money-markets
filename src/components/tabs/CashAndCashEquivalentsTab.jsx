@@ -18,22 +18,22 @@ const CashAndCashEquivalentsTab = () => {
                 <table className="w-full border-collapse text-sm border border-gray-900">
                     <thead>
                         <tr>
-                            <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900 sticky left-0 z-10 w-64"></th>
-                            <th colSpan="3" className="text-center text-xs font-medium text-gray-700 bg-red-100 p-2 border border-gray-900">Cash</th>
-                            <th colSpan="3" className="text-center text-xs font-medium text-gray-700 bg-purple-100 p-2 border border-gray-900">Transfer Domestic</th>
-                            <th colSpan="3" className="text-center text-xs font-medium text-gray-700 bg-blue-100 p-2 border border-gray-900">Transfer Foreign</th>
+                            <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10 w-64"></th>
+                            <th colSpan="3" className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Cash</th>
+                            <th colSpan="3" className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Transfer Domestic</th>
+                            <th colSpan="3" className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">Transfer Foreign</th>
                         </tr>
                         <tr>
-                            <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-900 sticky left-0 z-10"></th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-red-100 p-2 border border-gray-900">USD</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-red-100 p-2 border border-gray-900">ZWL</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-red-100 p-2 border border-gray-900">ZAR</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-purple-100 p-2 border border-gray-900">USD</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-purple-100 p-2 border border-gray-900">ZWL</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-purple-100 p-2 border border-gray-900">ZAR</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-blue-100 p-2 border border-gray-900">USD</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-blue-100 p-2 border border-gray-900">ZWL</th>
-                            <th className="text-center text-xs font-medium text-gray-700 bg-blue-100 p-2 border border-gray-900">ZAR</th>
+                            <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10"></th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">USD</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZWL</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZAR</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">USD</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZWL</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZAR</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">USD</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZWL</th>
+                            <th className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">ZAR</th>
                         </tr>
                     </thead>
                     <tbody>

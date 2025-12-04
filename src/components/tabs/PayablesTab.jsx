@@ -24,9 +24,9 @@ const PayablesTab = () => {
                     <table className="w-full border-collapse text-sm border border-gray-300">
                         <thead>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300 sticky left-0 z-10"></th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10"></th>
                                 {dates.map((date) => (
-                                    <th key={date} className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300">
+                                    <th key={date} className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">
                                         {date}
                                     </th>
                                 ))}
@@ -63,9 +63,9 @@ const PayablesTab = () => {
                     <table className="w-full border-collapse text-sm border border-gray-300">
                         <thead>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300 sticky left-0 z-10"></th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10"></th>
                                 {dates.map((date) => (
-                                    <th key={date} className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300">
+                                    <th key={date} className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">
                                         {date}
                                     </th>
                                 ))}
@@ -101,9 +101,9 @@ const PayablesTab = () => {
                     <table className="w-full border-collapse text-sm border border-gray-300">
                         <thead>
                             <tr>
-                                <th className="text-left text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300 sticky left-0 z-10"></th>
+                                <th className="text-left text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800 sticky left-0 z-10"></th>
                                 {dates.map((date) => (
-                                    <th key={date} className="text-center text-xs font-medium text-gray-700 bg-gray-100 p-2 border border-gray-300">
+                                    <th key={date} className="text-center text-xs font-medium text-white bg-slate-900 p-2 border border-slate-800">
                                         {date}
                                     </th>
                                 ))}
